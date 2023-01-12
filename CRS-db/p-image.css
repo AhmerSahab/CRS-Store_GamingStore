@@ -1,0 +1,14 @@
+.p-image-card {
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.358);
+  max-width: 20rem;
+  border-radius: 1rem;
+  padding-bottom: 1.8rem;
+  overflow: hidden;
+}
+
+.project-images-div {
+  gap: 4.5rem;
+}
+.p-img-div img {
+  max-width: 100%;
+}

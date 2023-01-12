@@ -1,0 +1,27 @@
+:root {
+  --color-primary-blue: #0fa69e;
+  --color-primary-dark: #000000;
+  --color-primary-dark-transparent: #0000009e;
+  --color-primary-white: #ffffff;
+  --color-primary-transparent: rgba(0, 0, 0, 0);
+
+  --avg-font-size: 1rem;
+}
+
+button {
+  padding: 0.4rem 1rem;
+  border: none;
+  font-size: var(--avg-font-size);
+  /* font-weight: 500; */
+  outline: none;
+  transition: all 0.5s ease;
+  /* border-radius: 15px; */
+  cursor: pointer;
+  color: var(--color-primary-blue);
+  background-color: var(--color-primary-transparent);
+  border: 2px solid var(--color-primary-blue);
+}
+button:hover {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-blue);
+}
